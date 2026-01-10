@@ -6,6 +6,10 @@ source github project: https://github.com/fghrsh/live2d_api
 
 根据这个项目我们可以使用github action进行构造，构造后push到阿里云镜像服务，在服务器端进行拉取操作
 
+### 容器所用技术
+
+caddy-2-alpine、php7.4
+
 ## 项目结构
 
 ```
