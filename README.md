@@ -1,5 +1,7 @@
 # live2d-api-docker
 
+前端可调用该api组件库： https://github.com/stevenjoezhang/live2d-widget
+
 容器化管理看板娘插件，国内可以使用阿里云镜像服务同步
 
 source github project: https://github.com/fghrsh/live2d_api
