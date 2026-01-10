@@ -1,0 +1,13 @@
+:80 {
+    # 网站根目录
+    root * /var/www/html
+
+    # 启用 Gzip 压缩
+    encode gzip
+
+    # 处理 PHP 请求 (转发给本容器内的 PHP-FPM)
+    php_fastcgi 127.0.0.1:9000
+
+    # 静态文件服务
+    file_server
+}
