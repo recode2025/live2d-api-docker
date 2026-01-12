@@ -19,9 +19,9 @@ caddy-2-alpine、php7.4
 .
 ├── .github/
 │   └── workflows/
-│       └── build.yml    # (新建) 这是我们要写的 Actions 脚本
-├── Caddyfile            # (之前写好的)
-└── Dockerfile           # (之前写好的)
+│       └── build.yml    
+├── Caddyfile            
+└── Dockerfile           
 
 ```
 ## 需要配置
